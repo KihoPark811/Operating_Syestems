@@ -137,6 +137,7 @@
 - 프로그램이 실행되는 과정을 제어하기 위해서는 연산 결과에 따른 상태 조건에 의해 실행 위치를 분기하여 이동하는 작업 및 함수를 호출하고 결과를 반환하는 작업 등을 한다.
 ## C 언어, 어셈블리 언어, 기계어
 ![image](https://github.com/user-attachments/assets/416029c5-6cfe-4b01-a721-d871012d7741)
+![image](https://github.com/user-attachments/assets/212cd8da-bbce-496e-a318-889e757b1d14)
 ### 위의 그림 분석
 - **mov sum, %ax**: sum 변수가 있는 주소의 메모리 내용을 읽어서 프로세서 내부의 AX 레지스터에 기록한다.
 - **add index, %ax**: index 변수가 있는 주소의 메모리 내용을 읽어서 AX 레지스터에 더한다.
@@ -148,3 +149,12 @@
 - **C 컴파일러**: C 언어 프로그램에 표현된 의도대로 실행되도록 적절한 어셈블리 언어로 자동으로 변역한다.
 - **어셈블러**: 이 프로그램을 기계어 코드로 번역해 준다.
   
+![image](https://github.com/user-attachments/assets/3d7108b4-af23-4eab-8868-6ec8a03a8477)
+- rrr로 표현된 부분: 레지스터 번호를 표현하는 부분
+- 000으로 표현된 부분: AX 레지스터 표현
+- 001으로 표현된 부분: BX 레지스터 표현
+- aa...aa로 표현된 부분: 메모리 상의 주소를 나타낸다.
+
+## 어셈블리 언어의 기초
+![image](https://github.com/user-attachments/assets/cd5bc3b0-1233-48ab-8ffb-9cb19313ceed)
+
