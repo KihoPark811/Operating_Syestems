@@ -62,6 +62,7 @@
 
 ## Direct Memory Access
 ![image](https://github.com/user-attachments/assets/3dab4505-7604-45b6-8fbb-35327d3da3b5)
+- **CPU를 거치지 않고 장치가 메모리와 직접 데이터를 주고 받는 방식이다.**
 - 기능이 있는 입출력 장치 제어기의 동작 과정
   1. CPU가 제어기로 명령을 전달해 놓는다.
   2. 제어기에서는 전달받은 명령에 따라 입출력 작업을 직접 메모리에 읽기나 쓰기 작업으로 처리한다.
