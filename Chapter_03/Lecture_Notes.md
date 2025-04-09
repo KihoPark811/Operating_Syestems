@@ -93,8 +93,7 @@
 
 ## 프로세스 상태 천이도
 ![image](https://github.com/user-attachments/assets/1804f24e-122d-48cf-b853-022ea6306bde)
-![image](https://github.com/user-attachments/assets/bb7b526a-557b-466f-8ed2-261509d27127)
-**(프로세스 상태)**
+### 프로세스 상태
 - 프로세스는 항상 다음 중 하나의 상태에 있게 된다.
 - 스케줄링은 Ready 상태의 프로세스들 중에서 하나를 선택하여 Running 상태로 결정하는 작업이 된다.
   - **Running**: CPU에 의해 현재 실행되고 있는 상태
@@ -104,5 +103,7 @@
     - Suspended 상태의 프로세스들은 이후에 activate 시스템 콜 함수에 의해 원래의 상태로 되돌아간다.
     - 원래 Running 상태에 있던 프로세스는 Ready 상태로 전환된다. 
 
+## Linux 상태천이도
+![image](https://github.com/user-attachments/assets/bb7b526a-557b-466f-8ed2-261509d27127)
 
 
